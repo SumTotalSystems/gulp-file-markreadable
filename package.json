@@ -3,10 +3,14 @@
   "version": "1.0.0",
   "description": "Makes a file readable my removing the readonly bit.",
   "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/SumTotalSystems/gulp-file-markreadable.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Michael Gardner <mgardner@sumtotalsystems.com",
+  "author": "Michael Gardner <mgardner@sumtotalsystems.com>",
   "license": "MIT",
   "dependencies": {
     "through2": "^2.0.0",
